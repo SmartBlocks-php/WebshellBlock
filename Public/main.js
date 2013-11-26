@@ -2,7 +2,8 @@ define([
     'jquery',
     'underscore',
     'backbone',
-    './libs/oauthio'
+    './libs/oauthio',
+    'http://api.webshell.io/sdk/js?key=' + SmartBlocks.Blocks.WebshellBlock.Config.api_key
 ], function ($, _, Backbone) {
     OAuth.initialize('xHZzysJg1RKVy0r7UjbysScXiMI');
     var Main = {
